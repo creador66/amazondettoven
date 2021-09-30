@@ -23,16 +23,21 @@ main article {
 	background: #fff;
 	margin: 20px 0;
 	padding: 20px;
-	height: 1000px;
+	height: 1200px;
 }
 
 /* ------------------------- */
 /* Enlaces del NAV */
 /* ------------------------- */
-.menu {
+       .menu {
+        position: fixed;
+        top: 0;
+        width:100%;
+
 	background: #232F3E;
-	padding: 5px 0;
+	padding: 10px 0;
 	margin-bottom: 20px;
+
 }
 
 .menu .contenedor-botones-menu {
